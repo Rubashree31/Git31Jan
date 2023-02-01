@@ -2,13 +2,13 @@ package org.java;
 
 public class Sample {
 	
-	
-	public Sample() {
-		
-		System.out.println("sample default");
+	private void emp() {
+		System.out.println("emp");
+
 	}
-	public Sample(String name){
-		this();
-		System.out.println("Name:"+name);
+	
+	public static void main(String[] args) {
+		Sample s = new Sample();
+		s.emp();
 	}
 }
